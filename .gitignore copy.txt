@@ -1,0 +1,12 @@
+# Maven
+/target/
+/*.log
+!.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# macOS
+.DS_Store
