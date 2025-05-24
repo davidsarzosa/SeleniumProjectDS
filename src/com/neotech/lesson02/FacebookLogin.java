@@ -26,27 +26,29 @@ public class FacebookLogin {
 		// Create a WebElement object and locate the username text box
 		WebElement usernameBox = driver.findElement(By.id("email"));
 		// send the email to the user
-		usernameBox.sendKeys("neo@gmail.com");
+		usernameBox.sendKeys("David A Sarzosa");
 
-		Thread.sleep(10000);
+		Thread.sleep(6000);
 
 		// 2. locate the password box and send the password
+		driver.findElement(By.id("pass")).sendKeys("Austin.2024"); // locate the password box and send the password
 
-		driver.findElement(By.id("pass")).sendKeys("password"); // locate the password box and send the password
-
+		// 3. Click on the login button
 		Thread.sleep(4000);
-		// 3. click on the login button
-		driver.findElement(By.id("u_0_5_sk")).click();
-		// cannot use this one, why ?
+//		// 3. click on the login button
+//		driver.findElement(By.id("u_0_5_sk")).click();
+//		// cannot use this one, why ?
+		// id is generated/ dynamic - it will change, so the test will fail !!
+//		driver.findElement(By.name("login")).click();
+
 		driver.findElement(By.name("login")).click();
 
-		Thread.sleep(3000);
+		Thread.sleep(10000);
 
 		driver.quit();
 
 		// We do need to use web connection to perform this king of test, so
-		// do not try to run the code w/o connection. 
-		
+		// do not try to run the code w/o connection.
 
 	}
 
