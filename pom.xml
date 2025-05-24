@@ -35,6 +35,11 @@
       <version>5.10.0</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    	<groupId>JavaBasic7avid</groupId>
+    	<artifactId>JavaBasic</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 
   <build>
