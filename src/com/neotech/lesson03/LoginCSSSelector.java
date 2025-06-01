@@ -22,11 +22,29 @@ public class LoginCSSSelector {
 		// To select CSS Selector you select (( input with a period "." and classvalue =
 		// "buttonBig";
 		driver.findElement(By.cssSelector("input.buttonBig")).click();
-		//Thread.sleep(3000);
+		// Thread.sleep(3000);
 		driver.findElement(By.cssSelector("a[href*='Personal.aspx']")).click();
 		Thread.sleep(3000);
 
 		driver.quit();
+
+//		
+//		🛠 Step 2: Use CSS Selector Syntax
+//		What You Want to Match	CSS Selector Example	Notes
+//		Tag name	input	All <input> elements
+//		By ID	#loginButton	id="loginButton"
+//		By Class	.form-control	class="form-control"
+//		By Attribute	input[type="text"]	Any input with type text
+//		Tag + Class	input.form-control	input with class
+//		Tag + ID	input#email	input with ID email
+//		Descendant (any level inside)	.form-group input	Input inside form-group
+//		Direct Child	form > input	Only direct children
+//		Adjacent Sibling	label + input	The input right after a label
+//		Attribute starts with	input[name^="user"]	name starts with "user"
+//		Attribute ends with	input[name$="name"]	name ends with "name"
+//		Attribute contains	input[name*="ser"]	name contains "ser"
+//
+//		
 
 	}
 
