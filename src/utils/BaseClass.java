@@ -23,7 +23,7 @@ public class BaseClass {
 		case "firefox":
 			driver = new FirefoxDriver();
 			break;
-			
+
 		default:
 			break;
 

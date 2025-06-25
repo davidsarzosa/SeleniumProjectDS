@@ -8,7 +8,7 @@ import java.util.Properties;
 public class ConfigsReader {
 	private static Properties prop;
 
-	// This method reads the properties of a config file
+	// This method reads the properties of a ConfigsFile
 	/*
 	 * @param filePath
 	 */
